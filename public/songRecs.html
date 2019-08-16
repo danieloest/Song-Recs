@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="songRecs.js"></script>
+    <link rel="stylesheet" href="songRecs.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="search-bar">
+        <input type="text" name="search" id="search" placeholder="Search for a song">
+        <button onclick="search()">Search</button>
+    </div>
+    <h2 id="search-title">Search Results</h2>
+    <table id="songs" class="center">
+        <tr>
+            <th>Song</th>
+            <th>Artist</th>
+            <th>Album</th>
+        </tr>
+    </table>
+    <h2 id="recommendations-title">Song Recommendations</h2>
+    <table id="recommendations" class="center"></table>
+</body>
+</html>
